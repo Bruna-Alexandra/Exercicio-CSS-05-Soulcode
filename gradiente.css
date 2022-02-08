@@ -1,0 +1,135 @@
+* {
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0;
+
+}
+
+p {
+    font-size: x-large;
+    text-align: center;
+    border-top: 3px black solid;
+}
+
+div[id^="div"] {
+    height: 100px;
+    width: 100%px;
+    margin-bottom: 10px;
+}
+
+div {
+    display: block;
+}
+
+div[id^="i"] {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    background-size: 300px 300px;
+
+}
+
+#div1 {
+    background: linear-gradient(pink, turquoise, blue);
+
+}
+
+#div2 {
+    background: radial-gradient(violet, blue);
+
+}
+
+#div3 {
+    background: repeating-linear-gradient(rgb(16, 38, 97), rgb(22, 99, 91), blue);
+
+}
+
+#div4 {
+    background: linear-gradient(200deg, pink, rgb(224, 64, 197), blue);
+
+}
+
+#div5 {
+    background: linear-gradient(to bottom right, yellow, orange);
+
+}
+
+#div6 {
+    background: conic-gradient(pink, turquoise, blue);
+
+}
+
+#div7 {
+    background: repeating-radial-gradient(rgb(96, 16, 107), rgb(161, 0, 75));
+
+}
+
+#div8 {
+    background: linear-gradient(to right, rgb(255, 0, 128), rgb(224, 64, 64), blue);
+
+}
+
+body {
+    margin: 0
+}
+
+#i1 {
+    background-image: url(imagens/1.jpg);
+
+}
+
+#i2 {
+    background-image: url(imagens/2.jpg);
+
+}
+
+#i3 {
+    background-image: url(imagens/3.jpg);
+
+}
+
+#i4 {
+    background-image: url(imagens/4.jpg);
+
+}
+
+#i5 {
+    background-image: url(imagens/5.jpg);
+
+}
+
+#i6 {
+    background-image: url(imagens/6.jpg);
+
+}
+
+#i7 {
+    background-image: url(imagens/7.jpg);
+
+}
+
+#i8 {
+    background-image: url(imagens/8.jpg);
+
+}
+div[id^="g"]{width: 300px;
+    height: 300px;
+    margin: auto;
+    background-size: 300px 300px;
+    display: inline-block;
+    margin: 50px 100px 50px 100px;
+    position: relative;
+    left: 260px;
+    
+}
+#g1{background-image: url(gif/1.gif);
+}
+#g2{background-image: url(gif/2.gif);
+}
+#g3{background-image: url(gif/3.gif);
+}
+
+footer{font-size: x-large;
+    text-align: center;
+
+}
